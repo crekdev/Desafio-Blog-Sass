@@ -1,0 +1,22 @@
+.button {
+  width: 100%;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: $font-bold;
+  font-size: 20px;
+  @include element-border;
+  @include element-spacing;
+
+  &__primary {
+      background-color: $primary-color;
+  }
+
+  &__secondary {
+    @include element-flex-center;
+      background-color: $secondary-color;
+      color: $black;
+      flex-direction: row;
+      justify-content: center;
+      padding: 0.2rem;
+  }
+}

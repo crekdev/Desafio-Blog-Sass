@@ -1,0 +1,11 @@
+.footer {
+
+  @include element-flex-center;
+ 
+  &__text {
+
+    margin-right: 5rem;
+    margin-left: auto;
+      
+  }
+}
