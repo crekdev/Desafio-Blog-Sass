@@ -1,0 +1,27 @@
+.subscripcion {
+  width: auto;
+  color: $secondary-color;
+  border-radius: 20px;
+  background-color: $green;
+ 
+
+  &__form {
+    display: flex;
+    padding-bottom: 5rem;
+    padding-inline: 5rem;
+  }
+
+  &__button {
+    width: 15rem;
+    margin-left: 1rem;
+
+  }
+
+  &__text {
+    width: 60%;
+    font-size: 30px;
+    padding-top: 5rem;
+    padding-left: 5rem;
+
+  }
+}

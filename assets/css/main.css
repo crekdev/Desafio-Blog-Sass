@@ -247,7 +247,6 @@ html, body {
 .button {
   width: 100%;
   border-radius: 4px;
-  cursor: pointer;
   font-weight: 700;
   font-size: 20px;
   border: 1px solid #d8d8d8;
@@ -284,6 +283,28 @@ input[type=password] {
   padding-left: 1rem;
   font-size: 1rem;
   color: #333;
+}
+
+.subscripcion {
+  width: auto;
+  color: #ffffff;
+  border-radius: 20px;
+  background-color: #67C770;
+}
+.subscripcion__form {
+  display: flex;
+  padding-bottom: 5rem;
+  padding-inline: 5rem;
+}
+.subscripcion__button {
+  width: 15rem;
+  margin-left: 1rem;
+}
+.subscripcion__text {
+  width: 60%;
+  font-size: 30px;
+  padding-top: 5rem;
+  padding-left: 5rem;
 }
 
 html,
